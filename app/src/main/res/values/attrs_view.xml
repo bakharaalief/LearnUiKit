@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UiKitEditText">
+        <attr name="input_type" />
+        <attr name="fill_color" />
+        <attr name="box_type" />
+        <attr name="textAreaMode" format="boolean" />
+    </declare-styleable>
+</resources>

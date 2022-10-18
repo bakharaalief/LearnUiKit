@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="input_type" format="enum">
+        <enum name="text" value="0"/>
+        <enum name="password" value="1"/>
+        <enum name="clearText" value="2"/>
+        <enum name="number" value="3"/>
+        <enum name="textMultiline" value="4"/>
+    </attr>
+
+    <attr name="fill_color" format="enum">
+        <enum name="transparent" value="0" />
+        <enum name="white" value="1" />
+    </attr>
+
+    <attr name="box_type" format="enum">
+        <enum name="filled" value="1" />
+    </attr>
+</resources>

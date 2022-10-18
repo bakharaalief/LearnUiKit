@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.bakharaalief.learnuikit.uikit.UiKitEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:input_type="text"
+            app:placeholderText="text" />
+
+        <com.bakharaalief.learnuikit.uikit.UiKitEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:input_type="password"
+            app:placeholderText="password" />
+
+        <com.bakharaalief.learnuikit.uikit.UiKitEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            app:placeholderText="password" />
+
+        <com.bakharaalief.learnuikit.uikit.UiKitEditText
+            android:id="@+id/edit_text_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/error_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="error" />
+
+    </LinearLayout>
+
+</ScrollView>
